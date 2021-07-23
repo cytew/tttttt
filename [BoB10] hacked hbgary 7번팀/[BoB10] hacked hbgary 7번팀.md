@@ -54,7 +54,7 @@ Aaron의 이메일과 SNS, 회사 내부 문건이 해킹되었고 **HBGary Fede
 - 암호학적 해시함수는 메시지의 무결성을 제공한다.
 - 암호학적 해시 함수를 통해 **메시지 다이제스트**틀 생성하는데 메세지 다이제스트는 고정 길이로 생성 된다. 메세지가 해시 함수를 거쳐 **메시지 다이제스트**가 생성되고 이를 비교하여 메시지의 변조 여부를 확인한다.
 
-![%5BBoB10%5D%20hacked%20hbgary/Untitled.png](%5BBoB10%5D%20hacked%20hbgary/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/46211268/126792222-febc4845-acb4-4939-9793-c9f9da7f7f84.png)
 
 - 해시 함수는 일방향성으로 메시지로부터 해시 값은 계산할 수 있지만 **해시 값으로부터 메시지를 계산할 수 없다.**
 
@@ -84,14 +84,14 @@ Aaron Barr는 유출된 비밀번호를 구글 메일에서 동일하게 사용�
 
 ### 사회공학적 기법 사용
 
-![%5BBoB10%5D%20hacked%20hbgary/Untitled%201.png](%5BBoB10%5D%20hacked%20hbgary/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/46211268/126792276-23ad725e-96f1-4138-aff5-4492dbd4f135.png)
 
 룰즈섹은 Aaron의 계정을 통해 Greg의 메일 함에 접근해 루트 암호와 보안 전문가 Jussi Jakkonaho가 루트 접근 권한을 가지고 있다는 **정보를 알아냈다.**
 
 보안 절차로 인해 루트 계정에서 직접 SSH 접근은 불가능했기에 
 룰즈섹은 Greg를 사칭하여 Jussi에게 계정과 암호를 알고 있다는 사실을 이용해 [Roolkit.com](http://roolki.com)에 접근할 수 있는 통로를 열어달라고 메일을 보냈다. Jussi는 메일로 상대방을 확인해 [**Rootkit.com](http://rootkit.com)에 접근할 수 있는 통로를 열어주었다.**
 
-![%5BBoB10%5D%20hacked%20hbgary/Untitled%202.png](%5BBoB10%5D%20hacked%20hbgary/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/46211268/126792306-2de213fb-d11b-4aed-bd40-7a09771889cc.png)
 
 ## 실무자가 원한 기능
 
